@@ -1,0 +1,172 @@
+.container {
+  border-radius: 5px;
+  position: relative;
+  width: 50vw;
+  height: 90vh;
+  max-height: 100vh;
+  overflow: scroll;
+  top: 5vh;
+  left: 10vw;
+  background: blue;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100vw; 
+    left: 0vw;
+    top: 0vh;
+}
+   button.minus {
+    width: 6vw;
+   }
+   button.adder {
+    width: 9vw;
+   }
+}
+.result {
+  display: flex;
+  border: 2px solid blue;
+  border-radius: 25%;
+  padding: 5px;
+}
+
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: white;
+  width: 90%;
+  padding: 1% 2% 1% 2%;
+  
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 70%;
+  border: 3px solid blue;
+  border-radius: 7px;
+  
+}
+
+
+
+.columnSideOfMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.interAction {
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+}
+
+button {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  
+  border-radius: 50%;
+  background: none;
+  padding: 0;
+  text-align: center; 
+}
+button.adder, button.minus {
+  border: none;
+}
+
+button.calcButton {
+  color: white;
+  background: rgb(47, 17, 75);
+  width: auto;
+  height: auto;
+  padding: 7px;
+  border: none;
+  margin: 0 3px;
+  
+
+}
+
+
+.arrows {
+  max-width: 90%;
+  
+}
+
+.arrowWrapper {
+  border: none;
+  width: 8%;
+  margin-top: 5%;
+  padding-left: 3px;
+  
+  
+}
+
+.adderOnlyOne {
+  width: 50px;
+  height: 50px;
+  margin-left: 45%;
+  margin-top: 5%;
+}
+
+button img {
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+  vertical-align: middle; 
+}
+.minus {
+  width: 3vw;
+  border: none;
+  margin-top: 11px;
+  
+}
+.adder {
+  width: 4vw;
+}
+
+.inputDiv {
+  border-bottom: 1px solid black;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blue;
+  border-radius: 4px;
+  padding: 1px;
+  
+}
+
+input {
+  max-width: 90%;
+  border: none;
+  outline: none;
+  
+  
+}
+
+.block {
+  width: 29%;
+  padding-left: 1%;
+}
+
+.money {
+  width: auto;
+  margin: 0 5%;
+  padding: 0 20px;
+  background: rgb(10, 10, 81);
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 9999;
+  background: white;
+
+}
